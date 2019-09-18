@@ -1,0 +1,234 @@
+/* ここから下に記載していく */
+.site {
+  width: 1366px;
+}
+.cheese {
+  width: 100%;
+}
+.about_cheese {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.about_cheese1 {
+  margin-top: 40px;
+}
+.about_cheese2 {
+  margin-bottom: 40px;
+}
+.about_cheese3 {
+  margin-bottom: 40px;
+}
+.about_cheese4 {
+  margin-bottom: 80px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+.header li {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.imgbox {
+  display: flex;
+  justify-content: flex-center;
+  margin: 50px auto;
+}
+.imgbox p img {
+  width: 100%;
+}
+.mainvisual {
+  height: 500px;
+  background: url(../img/mainbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mainvisual p {
+  color: white; /*文字は白に*/
+  text-align: center;
+}
+.maina {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 200px;
+}
+.mainb {
+  font-size: 30px;
+  margin-top: 30px;
+  padding-bottom: 200px;
+}
+.news-list {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  /* background: pink; */
+}
+ul {
+  list-style: none;
+}
+.about {
+  text-align: center;
+  margin: 50px auto;
+}
+.newsjp {
+  margin-bottom: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+ul.news-list li {
+  width: 300px;
+}
+h1.news-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffd61a;
+  text-align: center;
+}
+.newsday {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+h1.about-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffd61a;
+}
+.more {
+  text-align: center;
+}
+.back {
+  background-color: #fafafa;
+}
+h1.more-title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #ffd61a;
+  width: 300px;
+  height: 60px;
+  color: #fafafa;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+h1.more-title:hover {
+  background-color: #ff941a;
+}
+.access {
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.info {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+.contact {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contact-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+dt.more {
+  display: flex;
+  justify-content: center;
+}
+dl {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+dt {
+  width: 240px;
+  margin-left: 16px;
+  margin-right: 64px;
+}
+dd {
+  width: 328px;
+  height: 36px;
+}
+span {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.formbox {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formbox dl {
+  border-top: solid;
+  padding-top: 15px;
+  border-width: 0.5px;
+  border-color: #bfbfbf;
+}
+
+/* .formbox dt {
+  border-right: solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-width: 0.5px;
+  border-color: #bfbfbf;
+} */
+
+.formbox textarea {
+  margin-top: 20px;
+}
+
+.send {
+  margin-top: 250px;
+  margin-bottom: 60px;
+  background-color: #ffd61a;
+  width: 300px;
+  height: 60px;
+  color: #fafafa;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.send:hover {
+  background-color: #ff941a;
+}
+.footer {
+  background-color: #707070;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer p {
+  text-align: center;
+  color: #fafafa;
+}
